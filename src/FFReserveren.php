@@ -4,6 +4,7 @@ namespace Famdirksen\FFReserverenPhpSdk;
 
 use Carbon\Carbon;
 use Famdirksen\FFReserverenPhpSdk\Actions\ManagesCustomers;
+use Famdirksen\FFReserverenPhpSdk\Actions\ManagesUsers;
 use Famdirksen\FFReserverenPhpSdk\Actions\ManagesTeams;
 use GuzzleHttp\Client;
 
@@ -12,6 +13,7 @@ class FFReserveren
     use MakesHttpRequests;
     use ManagesCustomers;
     use ManagesTeams;
+    use ManagesUsers;
 
     /** @var string */
     public string $apiToken;
