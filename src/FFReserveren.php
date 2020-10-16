@@ -5,10 +5,12 @@ namespace Famdirksen\FFReserverenPhpSdk;
 use Carbon\Carbon;
 use GuzzleHttp\Client;
 use Famdirksen\FFReserverenPhpSdk\Actions\ManagesTeams;
+use Famdirksen\FFReserverenPhpSdk\Actions\ManagesCustomers;
 
 class FFReserveren
 {
     use MakesHttpRequests;
+    use ManagesCustomers;
     use ManagesTeams;
 
     /** @var string */
