@@ -1,6 +1,6 @@
 # An SDK to easily work with the FFReserveren API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/famdirksen/ffreserveren-php-sdk.svg?style=flat-square)](https://packagist.org/packages/famdirsen/ffreserveren-php-sdk)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/famdirksen/ffreserveren-php-sdk.svg?style=flat-square)](https://packagist.org/packages/famdirksen/ffreserveren-php-sdk)
 ![Tests](https://github.com/famdirksen/ffreserveren-php-sdk/workflows/run-tests/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/famdirksen/ffreserveren-php-sdk.svg?style=flat-square)](https://packagist.org/packages/famdirsen/ffreserveren-php-sdk)
 
