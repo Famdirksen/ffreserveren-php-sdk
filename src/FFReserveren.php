@@ -3,9 +3,9 @@
 namespace Famdirksen\FFReserverenPhpSdk;
 
 use Carbon\Carbon;
-use GuzzleHttp\Client;
-use Famdirksen\FFReserverenPhpSdk\Actions\ManagesTeams;
 use Famdirksen\FFReserverenPhpSdk\Actions\ManagesCustomers;
+use Famdirksen\FFReserverenPhpSdk\Actions\ManagesTeams;
+use GuzzleHttp\Client;
 
 class FFReserveren
 {
